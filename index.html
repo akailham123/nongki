@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Nongki</title>
 </head>
 <body>
@@ -17,10 +21,22 @@
             <li><a href="#" class="active">Home</a></li>
             <li><a href="#">Feed</a></li>
         </ul>
-        <ul class="profile">
+        <ul class="profile" id="profile">
             <li><a href="#" id="hamburger"><img src="icons/menu-burger.svg" alt="" width="20" height="20"></a></li>
-            <li><a href="#" id="profile" ><img src="icons/user.svg" alt="" width="25" height="25"></a></li>
+            <li><a href="#" id="profilePic" ><img src="icons/user.svg" alt="" width="25" height="25"></a></li>
         </ul>
+        <div class="navMenuToggle spacedText menu" id="navMenuToggle">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Feed</a></li>
+                <li><a href="#">Messages</a></li>
+                <li><a href="#">Reviews</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Log Out</a></li>
+            </ul>
+        </div>
     </nav>
 
     <div class="search"></div>
