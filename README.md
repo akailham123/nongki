@@ -1,4 +1,4 @@
-# nongki
+# nongki ( Public College Assignment - Personal Use Only )
 
 Figma Preview: https://www.figma.com/design/Qj9fQi1TBylB2CM94Qsflz/Display?node-id=0-1&t=fJCsuyOJJNNBAnNq-1
 
