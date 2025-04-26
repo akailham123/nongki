@@ -5,4 +5,5 @@ let profile = document.getElementById("profile");
 
 profile.addEventListener("click", () => {
     navMenuToggle.classList.toggle("active");
+    console.log("trigger")
 })
