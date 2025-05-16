@@ -9,6 +9,13 @@
 
 } html { scroll-behavior: smooth;}
 
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 .spacedText {
     letter-spacing: 2px;
     font-family: "Roboto Mono", monospace;
@@ -25,9 +32,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    position: fixed;
-    top: 0;
-    left: 0;
+    
     width: 100vw;
     height: 12vh;
 } .nav ul {

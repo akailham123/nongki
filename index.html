@@ -10,11 +10,14 @@
 </head>
 <body>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/row.css">
     <title>Nongki</title>
 </head>
 <body>
 
-    <nav class="nav">
+    <div class="header">
+        <nav class="nav">
         <p id="logo"> Nongki </p>
         <ul id="navMenu">
             <li><a href="#" class="active">Home</a></li>
@@ -37,7 +40,94 @@
             </ul>
         </div>
     </nav>
-    <div class="search"></div>
+    <div class="search-bar">
+        <div class="search-section">
+        <span>Where</span>
+        <input type="text" name="where" placeholder="Pencarian Destinasi">
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="search-section">
+            <span>Filter</span>
+            <input type="text" name="filter" placeholder="Tambah Filter">
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="search-section">
+            <span>Rating</span>
+            <input type="text" name="rating" placeholder="Rating">
+        </div>
+
+        <button class="search-button">
+        <svg viewBox="0 0 24 24">
+            <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16a6.471 6.471 0 004.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C8.01 14 6 11.99 6 9.5S8.01 5 10.5 5 15 7.01 15 9.5 12.99 14 10.5 14z"/>
+        </svg>
+        </button>
+    </div>
+
+    <div class="filter-row">
+    <div class="filter-item active">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M3 9.5L12 3l9 6.5V20a1 1 0 01-1 1H4a1 1 0 01-1-1V9.5z" stroke-width="1.5"/>
+      </svg>
+      <span>Recomendations</span>
+    </div>
+    <div class="filter-item">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 
+        4.42 3 7.5 3c1.74 0 3.41 0.81 4.5 2.09C13.09 3.81 
+        14.76 3 16.5 3 19.58 3 22 5.42 
+        22 8.5c0 3.78-3.4 6.86-8.55 
+        11.54L12 21.35z" stroke-width="1.5"/>
+      </svg>
+      <span>Most Liked</span>
+    </div>
+    <div class="filter-item">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M4 7h16v13H4z" stroke-width="1.5"/>
+        <path d="M4 7l8-5 8 5" stroke-width="1.5"/>
+      </svg>
+      <span>WFC</span>
+    </div>
+    <div class="filter-item">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="3.2" stroke-width="1.5"/>
+        <path d="M2 12c0-5.5 4.5-10 10-10s10 4.5 10 10-4.5 10-10 10S2 17.5 2 12z" stroke-width="1.5"/>
+      </svg>
+      <span>Most Viewed</span>
+    </div>
+    <div class="filter-item">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M5 16L16 5l3 3L8 19H5v-3z" stroke-width="1.5"/>
+      </svg>
+      <span>Internet Kilat</span>
+    </div>
+    <div class="filter-item">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <rect x="4" y="4" width="16" height="16" rx="2" ry="2" stroke-width="1.5"/>
+        <circle cx="12" cy="12" r="3" stroke-width="1.5"/>
+      </svg>
+      <span>Estetik</span>
+    </div>
+    <div class="filter-item">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="10" stroke-width="1.5"/>
+        <path d="M8 15s1.5 2 4 2 4-2 4-2" stroke-width="1.5"/>
+        <path d="M9 9h.01M15 9h.01" stroke-width="1.5"/>
+      </svg>
+      <span>Paling Disukai</span>
+    </div>
+
+    <div class="filter-button">
+      <svg viewBox="0 0 24 24" fill="none">
+        <path d="M9 6l6 6-6 6" stroke-width="2"/>
+      </svg>
+      <span>Filter</span>
+    </div>
+  </div>
+    </div>
 
 <script src="script/script.js"></script>
 </body>
